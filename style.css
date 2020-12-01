@@ -1,4 +1,11 @@
-article {
+header {
+	text-align: center;
+	font-size: x-large;
+	color: white;
+	background-color: black;
+}
+
+main {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
