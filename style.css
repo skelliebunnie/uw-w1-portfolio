@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+
 :root {
 	--dark-sienna: #462521;
 	--raw-umber: #8A6552;
-	--navajo-white: #FFE0B5;
+	--navajo-white: #fff0dc;
 	--polished-pine: #6ba292;
 	--rubine-red: #CA2E55;
 }
@@ -13,7 +15,8 @@ html, body { height: 100%; }
 	display: grid;
 	grid-template-rows: auto 1fr auto;
 	font-size: larger;
-	line-height: 2rem;
+	line-height: 2.5rem;
+	font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -36,6 +39,7 @@ main {
 	flex-flow: row wrap;
 	justify-content: space-around;
 	align-items: stretch;
+	background-color: var(--navajo-white);
 }
 
 section {
